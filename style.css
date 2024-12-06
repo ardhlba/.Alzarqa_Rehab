@@ -1,0 +1,168 @@
+/* Reset */
+body, h1, h2, h3, p, ul {
+    
+    list-style: none;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #131111;
+}
+
+/* Title Section */
+.title {
+    padding: 20px 0;
+    width: 1000px;
+    height: 70px;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+/* Navigation */
+nav {
+    background-color: #131111;
+    padding: 40px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+    transform: scale(1.5);
+}
+
+a:hover {
+
+    background-color: rgb(234, 170, 217);
+    border-radius: 20px ;
+    padding: 10px;
+
+}
+
+/* main Section */
+.main {
+    /* يمكن تعديل العرض حسب الحاجة */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: #131111; /* لون الخلفية */
+    border-radius: 10px; /* لتنعيم الحواف */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    transition: all 0.3s ease; /* لإضافة حركة سلسة */
+}
+
+.main:hover {
+    background-color: rgb(27, 31, 31);
+    box-shadow: 0px 8px 15px #131111; /* زيادة الظل عند التحويم */
+    transform: translateY(-5px); /* رفع العنصر للأعلى عند التحويم */
+}
+
+.main:active {
+    transform: scale(0.95); /* تصغير العنصر قليلاً عند الضغط */
+    box-shadow: 0px 4px 6px #131111; /* تقليل الظل عند الضغط */
+}
+
+
+.main-text > p{
+    background: #131111;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+/* Info Section */
+.info {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  
+}
+
+.info-card {
+    text-align: center;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* لإضافة حركة سلسة */
+}
+.info-card h3 {
+
+    background-color: #f4f4f4;
+   
+    
+}
+.info-card p {
+
+    background-color: #f4f4f4; 
+    font-size: 20px;
+    line-height: 31px;
+}
+
+.info-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.main:hover {
+    background-color: rgb(27, 31, 31);
+    box-shadow: 0px 8px 15px #131111; /* زيادة الظل عند التحويم */
+    transform: translateY(-5px); /* رفع العنصر للأعلى عند التحويم */
+}
+
+.main:active {
+    transform: scale(0.95); /* تصغير العنصر قليلاً عند الضغط */
+    box-shadow: 0px 4px 6px #131111; /* تقليل الظل عند الضغط */
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between; /* توزيع المحتوى بين الأعمدة */
+    align-items: center; /* محاذاة العمودين عمودياً */
+    background-color: #131111; /* لون خلفية التذييل */
+    color: white; /* لون النص */
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* العمود الأيسر (الشعار) */
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left img {
+    width: 200px; /* حجم الشعار */
+    height: auto;
+    margin-right: 10px;
+}
+
+/* العمود الأيمن (حقوق النشر) */
+.footer-right {
+    font-size:25px;
+}
+
+/* يمكن إضافة تأثيرات عند التمرير على النص */
+.footer-right a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+
+}
+
